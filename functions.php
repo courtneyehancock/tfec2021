@@ -72,7 +72,7 @@
     register_sidebar(array(
       'name'          => ('Middle Left Footer'),
       'id'            => 'middle-left-footer',
-      'description'   => 'Middle Left Space widget area in the footer',
+      'description'   => 'Middle Left widget area in the footer',
       'before_widget' => '<div class="widget-footer widget-middle-left">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
@@ -82,7 +82,7 @@
     register_sidebar(array(
       'name'          => ('Middle Footer'),
       'id'            => 'middle-footer',
-      'description'   => 'Menu Title widget area in the footer',
+      'description'   => 'Middle widget area in the footer',
       'before_widget' => '<div class="widget-footer widget-menu-title">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
@@ -91,9 +91,9 @@
 
     //Footer: Middle Right Widget
     register_sidebar(array(
-      'name'          => ('Right Footer'),
+      'name'          => ('Middle Right Footer'),
       'id'            => 'middle-right-footer',
-      'description'   => 'Right widget area in the footer',
+      'description'   => 'Middle right widget area in the footer',
       'before_widget' => '<div class="widget-footer widget-right">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',

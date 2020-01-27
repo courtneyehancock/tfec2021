@@ -26,7 +26,7 @@
 
   </div>
 </footer>
-s
+
 <?php wp_footer(); ?>
 
 </body>

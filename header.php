@@ -10,7 +10,7 @@
 <body <?php body_class();?>>
 
 <header>
-  <div class="container-fluid top-menu-header justify-content-center">
+  <div class="container top-menu-header justify-content-center">
     <div class="row">
       <div class="col-md-12">
         <!--Banner above navigation-->

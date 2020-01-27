@@ -12,18 +12,13 @@
 <header>
   <div class="container-fluid top-menu-header justify-content-center">
     <div class="row">
-      <div class="col-md-4" id="site-logo">
-        <!--If/else for Logo and Site Title-->
-        <?php if(get_header_image() == '') { ?>
-          <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
-          <?php
-        }else{?>
-          <a href="<?php echo home_url('/'); ?>"><img class="align-middle daves-logo" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
-          <?php
-        }
-        ?>
+      <div class="col-md-12">
+        <!--Banner above navigation-->
+        <?php dynamic_sidebar('banner-home'); ?>
       </div>
-      <div class="col-md-8 p-3" id="site-nav">
+    </div>
+    <div class="row">
+      <div class="col-md-12 p-3" id="site-nav">
         <!--Navigation-->
         <?php wp_nav_menu(array(
           'theme_location' => 'header-menu',

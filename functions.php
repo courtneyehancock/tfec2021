@@ -68,7 +68,7 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Footer: Middle Left Space Widget
+    //Footer: Middle Left Widget
     register_sidebar(array(
       'name'          => ('Middle Left Footer'),
       'id'            => 'middle-left-footer',
@@ -78,12 +78,23 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Footer: Menu Title Widget
+    //Footer: Middle Widget
     register_sidebar(array(
-      'name'          => ('Menu Title Footer'),
-      'id'            => 'menu-title-footer',
+      'name'          => ('Middle Footer'),
+      'id'            => 'middle-footer',
       'description'   => 'Menu Title widget area in the footer',
       'before_widget' => '<div class="widget-footer widget-menu-title">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Footer: Middle Right Widget
+    register_sidebar(array(
+      'name'          => ('Right Footer'),
+      'id'            => 'middle-right-footer',
+      'description'   => 'Right widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-right">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
@@ -95,16 +106,6 @@
       'id'            => 'right-footer',
       'description'   => 'Right widget area in the footer',
       'before_widget' => '<div class="widget-footer widget-right">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-    //Footer: Social Widget
-    register_sidebar(array(
-      'name'          => ('Social Footer'),
-      'id'            => 'social-footer',
-      'description'   => 'Social widget area in the footer',
-      'before_widget' => '<div class="widget-footer widget-social">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'

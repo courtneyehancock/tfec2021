@@ -27,6 +27,16 @@
 
   //Widget Areas
   function blank_widgets_init() {
+    //sidebar
+    register_sidebar(array(
+      'name'          => ('Right Sidebar'),
+      'id'            => 'right-sidebar',
+      'description'   => 'Right Sidebar area for template',
+      'before_widget' => '<div class="widget-right-sidebar">',
+      'after_widget'  => '</div',
+      'before_title'  => '<h3 class="right-sidebar-widget-title">',
+      'after_title'   => '</h3'
+));
     //Home: Banner Widget
     register_sidebar(array(
       'name'          => ('Banner Home'),

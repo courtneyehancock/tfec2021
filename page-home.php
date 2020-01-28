@@ -15,7 +15,7 @@
       ?>
     </div>
     <div class="col-md-3">
-      <?php get_sidebar(); ?>
+      <?php dynamic_sidebar('right-home-widget'); ?>
 
     </div>
   </div>

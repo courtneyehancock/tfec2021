@@ -65,7 +65,7 @@ a {
 }
 
 a:hover {
-	color: #c8a37b;
+	color: #2c99b6;
 	text-decoration: none;
 }
 .title-box {
@@ -185,12 +185,6 @@ footer li a:hover {
 	text-decoration: none;
 }
 
-.widget-footer.widget-right a {
-  color: #fff;
-}
-.widget-footer.widget-right a:hover {
-  color: #fff;
-}
 
 footer img {
 	max-width: 300px !important;

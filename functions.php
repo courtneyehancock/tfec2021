@@ -48,26 +48,17 @@
       'after_title'   => '</h3>'
     ));
 
-    //Home: Service-Brief Widget
+    //Home: Right Home Widget
     register_sidebar(array(
-      'name'          => ('Service-Brief Home'),
-      'id'            => 'service-brief-home',
-      'description'   => 'Service-Brief widget area in home page',
-      'before_widget' => '<div class="widget-home widget-service-brief">',
+      'name'          => ('Right Home Widget'),
+      'id'            => 'right-home-widget',
+      'description'   => 'Right widget area in home page',
+      'before_widget' => '<div class="widget-home">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Home: Contact-Brief Widget
-    register_sidebar(array(
-      'name'          => ('Contact-Brief Home'),
-      'id'            => 'contact-brief-home',
-      'description'   => 'Contact-Brief widget area in home page',
-      'before_widget' => '<div class="widget-home widget-right">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
+
     //Footer: Left Widget
     register_sidebar(array(
       'name'          => ('Left Footer'),

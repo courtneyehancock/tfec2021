@@ -36,7 +36,8 @@
       'after_widget'  => '</div',
       'before_title'  => '<h3 class="right-sidebar-widget-title">',
       'after_title'   => '</h3'
-));
+    ));
+    
     //Home: Banner Widget
     register_sidebar(array(
       'name'          => ('Banner Home'),
@@ -53,7 +54,7 @@
       'name'          => ('Right Home Widget'),
       'id'            => 'right-home-widget',
       'description'   => 'Right widget area in home page',
-      'before_widget' => '<div class="widget-home">',
+      'before_widget' => '<div class="widget-home ">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'

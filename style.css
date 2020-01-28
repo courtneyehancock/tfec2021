@@ -78,7 +78,15 @@ button:hover {
   color: white;
 }
 
+/* -- HOME PAGE -- */
+.equal_cols_right {
+    border-left: 1px solid #121212;
+    padding-left: 2%;
+}
 
+.equal_cols_left {
+    padding-right: 2%;
+}
 /* -- FOOTER -- */
 
 footer {

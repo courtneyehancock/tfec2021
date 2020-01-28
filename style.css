@@ -81,7 +81,7 @@ button:hover {
 /* -- HOME PAGE -- */
 .home-divider {
     border-top: 4px solid #121212;
-    padding-top: 2%;
+    padding-top: 2% 0;
 }
 
 .equal_cols_right {

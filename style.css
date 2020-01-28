@@ -14,38 +14,24 @@ Colors
 Red: #c62644
 Teal: #2c99b6
 Soft Black: #3f4348
-
-Fonts
-font-family: 'CaviarDreams' !important;
-font-family: 'CaviarDreams_Bold' !important;
-font-family: 'CaviarDreams-BoldItalic' !important;
-font-family: 'CaviarDreams-Italic' !important;
-font-family: 'Afterglow-Regular' !important;
-*/
+/*
 
 
 /* -- Universal Styling -- */
-@font-face {
-	font-family: 'RoughBlacky';
-	src: url('fonts/RoughBlacky.otf') format('opentype');
-}
-@font-face {
-	font-family: 'Adam';
-	src: url('fonts/Adam.ttf') format('truetype');
-}
+
 @font-face {
 	font-family: 'OpenSans-Regular';
 	src: url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
 h1 {
-  font-family: 'RoughBlacky' !important;
+  font-family: 'OpenSans-Regular' !important;
   letter-spacing: 1.5px;
   color: #322015;
 }
 
 h2, h3 {
-  font-family: 'Adam' !important;
+  font-family: 'OpenSans-Regular' !important;
   letter-spacing: 1.5px;
   color: #c8a37b;
 	text-transform: uppercase;
@@ -82,7 +68,7 @@ a:hover {
 button {
     border: 3px solid #c62644;
 		background-color: #c62644;
-    font-family: 'Afterglow-Regular' !important;
+    font-family: 'OpenSans-Regular' !important;
     color: #60c28e;
     border-radius: 0;
 }
@@ -92,66 +78,6 @@ button:hover {
   color: white;
 }
 
-
-/* -- HEADER -- */
-.container-fluid.top-menu-header.sticky-element-original.element-is-sticky {
-	-webkit-box-shadow: 0 10px 5px #888888;
-	-moz-box-shadow: 0 10px 5px #888888;
-	box-shadow: 0 1px 8px #888888;
-}
-
-.top-menu-header {
-	background-color: #fff;
-}
-
-img.daves-logo {
-	max-width: 200px;
-	margin-top: 2%;
-	margin-left: 6%;
-}
-
-/* -- HOME PAGE -- */
-.widget-small-banner img{
-	width: 100%;
-}
-
-a.homepage-offer {
-	color: #212121;
-}
-
-a.homepage-offer:hover {
-	color: #c8a37b;
-	text-decoration: none;
-}
-
-.home-icons {
-	width: 60px;
-}
-
-.home-icons:hover {
-	color: #c8a37b;
-	opacity: .7;
-	transition: .2s;
-}
-
-.home-banner-text {
-	background-color: #212121;
-	padding: 5%;
-}
-.image-ultimate-hover-1 .iheu-info,
-.image-ultimate-hover-2 .iheu-info {
-	background: #322015 !important;
-}
-/* -- PROJECTS PAGE -- */
-.crp-catalog-title{
-	font-family: 'OpenSans-Regular', sans-serif !important;
-	font-size: .8em;
-}
-
-/* -- CONTACT PAGE -- */
-label {
-	padding: 1%;
-}
 
 /* -- FOOTER -- */
 
@@ -181,7 +107,6 @@ footer li a:hover {
   color: #2c99b6;
 	text-decoration: none;
 }
-
 
 footer img {
 	width: 200px;

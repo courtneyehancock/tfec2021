@@ -24,7 +24,6 @@
 
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
-
   //Widget Areas
   function blank_widgets_init() {
     //sidebar
@@ -37,7 +36,7 @@
       'before_title'  => '<h3 class="right-sidebar-widget-title">',
       'after_title'   => '</h3'
     ));
-    
+
     //Home: Banner Widget
     register_sidebar(array(
       'name'          => ('Banner Home'),

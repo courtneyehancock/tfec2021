@@ -14,7 +14,7 @@
           }
         ?>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-3">
         <?php get_sidebar('right-sidebar'); ?>
 
       </div>

@@ -27,21 +27,20 @@ Soft Black: #3f4348
 h1 {
   font-family: 'OpenSans-Regular' !important;
   letter-spacing: 1.5px;
-  color: #322015;
+  color: #2a2e32;
 	font-size: 1.5em;
 }
 
 h2, h3 {
   font-family: 'OpenSans-Regular' !important;
   letter-spacing: 1.5px;
-  color: #c8a37b;
-	text-transform: uppercase;
+  color: ##2a2e32;
 	font-size: 1.2em;
 }
 h4, h5, h6 {
   font-family: 'OpenSans-Regular' !important;
 	letter-spacing: 1.5px;
-  color: #322015;
+  color: #2a2e32;
 	font-size: 1em;
 }
 p {

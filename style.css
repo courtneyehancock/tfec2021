@@ -63,7 +63,7 @@ h4, h5, h6 {
 p {
   font-family: 'Lato-Regular', Arial !important;
 	color: #212121;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 a {
@@ -125,7 +125,7 @@ footer p {
 }
 
 footer ul {
-    font-family: 'OpenSans-Regular' !important;
+    font-family: 'Lato-Regular' !important;
     list-style-type: none;
 		padding-left: 0;
 }

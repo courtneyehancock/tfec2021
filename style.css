@@ -112,6 +112,11 @@ button:hover {
 .equal_cols_left {
     padding-right: 2%;
 }
+
+/* -- TOPICS PAGE -- */
+.topics-list {
+	background-color: #eaf0f3;
+}
 /* -- FOOTER -- */
 
 footer {

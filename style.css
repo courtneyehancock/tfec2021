@@ -45,22 +45,20 @@ Soft Black: #3f4348
 }
 
 h1 {
-  font-family: 'OpenSans-Regular' !important;
+  font-family: 'Lato-Black', Arial !important;
   letter-spacing: 1.5px;
   color: #2a2e32;
 	font-size: 1.5em;
-	font-weight:bold;
 }
 
 h2, h3 {
-  font-family: 'OpenSans-Regular' !important;
+  font-family: 'Lato-Bold', Arial !important;
   letter-spacing: 1.5px;
   color: ##2a2e32;
 	font-size: 1.2em;
-	font-weight:bold;
 }
 h4, h5, h6 {
-  font-family: 'OpenSans-Regular' !important;
+  font-family: 'OpenSans-Regular', sans-serif !important;
 	letter-spacing: 1.5px;
   color: #2a2e32;
 	font-size: 1em;

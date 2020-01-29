@@ -23,12 +23,33 @@ Soft Black: #3f4348
 	font-family: 'OpenSans-Regular';
 	src: url('fonts/OpenSans-Regular.ttf') format('truetype');
 }
+@font-face {
+	font-family: 'Lato-Black';
+	src: url('fonts/Lato-Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Lato-Bold';
+	src: url('fonts/Lato-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Lato-Italic';
+	src: url('fonts/Lato-Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Lato-Light';
+	src: url('fonts/Lato-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Lato-Regular';
+	src: url('fonts/Lato-Regular.ttf') format('truetype');
+}
 
 h1 {
   font-family: 'OpenSans-Regular' !important;
   letter-spacing: 1.5px;
   color: #2a2e32;
 	font-size: 1.5em;
+	font-weight:bold;
 }
 
 h2, h3 {
@@ -36,6 +57,7 @@ h2, h3 {
   letter-spacing: 1.5px;
   color: ##2a2e32;
 	font-size: 1.2em;
+	font-weight:bold;
 }
 h4, h5, h6 {
   font-family: 'OpenSans-Regular' !important;

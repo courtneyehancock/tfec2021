@@ -56,12 +56,12 @@ h2, h3 {
 	font-size: 1.2em;
 }
 h4, h5, h6 {
-  font-family: 'OpenSans-Regular', sans-serif !important;
+  font-family: 'Lato-Italic', Arial !important;
   color: #2a2e32;
 	font-size: 1em;
 }
 p {
-  font-family: 'OpenSans-Regular', sans-serif !important;
+  font-family: 'Lato-Regular', Arial !important;
 	color: #212121;
 	font-size: 15px;
 }
